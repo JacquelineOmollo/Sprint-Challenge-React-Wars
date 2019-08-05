@@ -2,7 +2,7 @@ import React from "react";
 import { Card, Grid } from "semantic-ui-react";
 const DataCard = props => {
   return (
-    <Grid columns={3} divided>
+    <Grid columns={3} divided textAlign="center">
       <Grid.Row>
         <Grid.Column>
           <Card>
